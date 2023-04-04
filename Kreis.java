@@ -6,6 +6,10 @@ public class Kreis extends Grundform {
         this.radius = radius;
     }
 
+    public double getRadius() {
+        return radius;
+    }
+
     @Override
     public double berechneFläche() {
         return radius * radius * Math.PI;

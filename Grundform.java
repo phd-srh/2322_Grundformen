@@ -1,9 +1,4 @@
-public class Grundform /* extends Object */ {
-    public double berechneFläche() {
-        return 0.0;
-    }
-
-    public double berechneUmfang() {
-        return 0.0;
-    }
+public abstract class Grundform /* extends Object */ {
+    public abstract double berechneFläche();
+    public abstract double berechneUmfang();
 }
