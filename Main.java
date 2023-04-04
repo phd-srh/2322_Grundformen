@@ -3,12 +3,11 @@ public class Main {
         Kreis kreis = new Kreis(7.2);
         Quadrat quadrat = new Quadrat(5);
 
-        ausgabeUmfangUndFläche(kreis);
-        ausgabeUmfangUndFläche(quadrat);
+        ausgabeUmfangUndFläche("Kreis", kreis);
+        ausgabeUmfangUndFläche("Quadrat", quadrat);
     }
 
-    private static void ausgabeUmfangUndFläche(Grundform form) {
-        String formArt = form.getForm();
+    private static void ausgabeUmfangUndFläche(String formArt, Grundform form) {
         System.out.println("Umfang vom " + formArt + ": " + form.berechneUmfang());
         System.out.println("Fläche vom " + formArt + ": " + form.berechneFläche());
     }

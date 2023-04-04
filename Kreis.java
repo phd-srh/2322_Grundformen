@@ -3,7 +3,6 @@ public class Kreis extends Grundform {
     private double radius;
 
     public Kreis(double radius) {
-        super("Kreis");
         this.radius = radius;
     }
 

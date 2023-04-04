@@ -2,7 +2,6 @@ public class Quadrat extends Grundform {
     private double seitenlänge;
 
     public Quadrat(double seitenlänge) {
-        super("Quadrat");
         this.seitenlänge = seitenlänge;
     }
 
